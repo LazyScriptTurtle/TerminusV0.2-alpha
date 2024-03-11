@@ -2,7 +2,6 @@
 
 function CreateUser {
     try {
-        Import-Module ActiveDirectory
         $domain = Get-ADDomain | Select-Object -ExpandProperty Forest
         $firstName = (Read-Host "Podaj imie").Trim()
         $lastName = (Read-Host "Podaj nazwisko").Trim()
@@ -45,7 +44,7 @@ function CreateUser {
             Write-Host "Użytkownik $fullName został pomyślnie utworzony w OU: $selectedOU"
         }
         else{
-            Write-Host " nie udalo sie utworzyc uzytkownika :("
+            Read-Host " nie udalo sie utworzyc uzytkownika :("
         }
         
         

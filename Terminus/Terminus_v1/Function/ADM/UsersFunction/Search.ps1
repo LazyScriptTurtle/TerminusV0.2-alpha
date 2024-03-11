@@ -11,7 +11,7 @@ try {
         Write-Host $userSerach
     }
     else {
-        Write-host "Podany uzytkownik nie istnieje"
+        Read-Host "Podany uzytkownik nie istnieje"
     }
 
 }

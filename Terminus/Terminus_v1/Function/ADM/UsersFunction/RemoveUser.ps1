@@ -23,7 +23,7 @@ if ($null -ne $uzytkownik) {
     }
 } else {
     # Jeśli użytkownik nie został znaleziony
-    Write-Host "Nie znaleziono użytkownika spełniającego podane kryteria."
+    Read-Host "Nie znaleziono użytkownika spełniającego podane kryteria."
 }
 
     }

@@ -14,7 +14,7 @@ if ($null -ne $user)
     Disable-ADAccount -Identity "$user" -Confirm:$false
 }
 else {
-    Write-Host "Uztkownik nie istnieje"
+    Read-Host "Uztkownik nie istnieje"
 }
 
 }
