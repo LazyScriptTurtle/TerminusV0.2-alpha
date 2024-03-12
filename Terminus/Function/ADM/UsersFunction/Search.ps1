@@ -9,7 +9,7 @@ try {
     if ($null -ne $userSerach)
     {
         Write-Host $userSerach
-        Read-Host "Nacisnij dowolny klawisz aby wrocic do menu"
+        Read-Host " "
     }
     else {
         Read-Host "Podany uzytkownik nie istnieje"

@@ -13,7 +13,7 @@ foreach ($group in $groupedUsers) {
         Write-Output $($user.SamAccountName)
     }
 }
-Read-Host "Nacisnij dowolny klawisz aby powrocic do menu:  "
+Read-Host " "
 }
 catch {
   Read-Host "Blad: $_."
