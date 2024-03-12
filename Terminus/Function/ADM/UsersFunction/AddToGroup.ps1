@@ -14,6 +14,7 @@ function AddToGroup {
     if ($null -ne (Get-ADGroup -Identity $group))
     {
         Add-ADGroupMember -Identity $group -Members $users
+        Read-Host "Uzytkownik pomyslnie dodany :) "
     }
     else {
         Read-Host "Podana grupa nie istnieje "

@@ -12,6 +12,7 @@ $user = Get-ADUser -Filter "GivenName -eq '$imie' -and Surname -eq '$nazwisko' -
 if ($null -ne $user)
 {
     Disable-ADAccount -Identity "$user" -Confirm:$false
+    Read-Host "Uzytkownik zablokowany :)"
 }
 else {
     Read-Host "Uztkownik nie istnieje"

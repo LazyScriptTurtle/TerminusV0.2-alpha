@@ -29,19 +29,20 @@ function CreateUser {
         }
         
         # Wybór OU przez użytkownika
-        $selectedOUIndex = Read-Host "Wybierz numer OU, w którym chcesz utworzyć użytkownika"
+        $selectedOUIndex = Read-Host "Wybierz numer OU, w ktorym chcesz utworzyc uzytkownika"
         $selectedOU = $ous[$selectedOUIndex].DistinguishedName
 
         # Sprawdzenie czy wybrany index znajduje się w zakresie dostępnych OU
         if (-not $selectedOU) {
-            Write-Host "Nieprawidłowy wybór OU. Proces zostaje przerwany."
+            Write-Host "Nieprawidlowy wybor OU. Proces zostaje przerwany."
+            sleep -Seconds 3
             return
         }
 
         New-ADUser -Name "$fullName" -GivenName "$firstName" -Surname "$lastName" -SamAccountName "$userPrincipalName" -UserPrincipalName "$login" -AccountPassword $password -PasswordNeverExpires $false -PasswordNotRequired $false -Enabled $isEnable -ChangePasswordAtLogon $change -Path $selectedOU
         $checker = Get-ADUser -Identity "$userPrincipalName"
         if($checker){
-            Write-Host "Użytkownik $fullName został pomyślnie utworzony w OU: $selectedOU"
+            Read-Host "Uzytkownik $fullName został pomyslnie utworzony w OU: $selectedOU"
         }
         else{
             Read-Host " nie udalo sie utworzyc uzytkownika :("

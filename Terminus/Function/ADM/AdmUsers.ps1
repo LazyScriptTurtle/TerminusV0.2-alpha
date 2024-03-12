@@ -15,19 +15,19 @@ function AdmUsers {
     do 
     {
      Clear-Host
-     Write-Host '/================= Uzytkownicy =================\'
-     Write-Host '| 1. Stworz Uzytkownika                         |'
-     Write-Host '| 2. Usun Uzytkownika                           |'
-     Write-Host '| 3. Dodaj Uzytkownika do Grupy                 |'
-     Write-Host '| 4. Usun Uzytkownika z Grupy                   |'
-     Write-Host '| 5. Zablokuj Uzytkownika                       |'
-     Write-Host '| 6. Zrestartuj Haslo                           |'
-     Write-Host '| 7. Wylistuj Uzytkownikow                      |'
-     Write-Host '| 8. Szukaj Uzytkownika                         |'
-     Write-Host '| 9. Zaimportuj Liste Uzytkownikow z plikuu CSV |'
-     Write-Host '| ################## Wyjscie ################## |'
-     Write-Host '| 10. Powrot                                    |'
-     Write-Host '|===============================================|'
+     Write-Host '/=================== Uzytkownicy ====================\'
+     Write-Host '| 1. Stworz Uzytkownika                              |'
+     Write-Host '| 2. Usun Uzytkownika                                |'
+     Write-Host '| 3. Dodaj Uzytkownika do Grupy                      |'
+     Write-Host '| 4. Usun Uzytkownika z Grupy                        |'
+     Write-Host '| 5. Zablokuj Uzytkownika                            |'
+     Write-Host '| 6. Zrestartuj Haslo                                |'
+     Write-Host '| 7. Wylistuj Uzytkownikow                           |'
+     Write-Host '| 8. Szukaj Uzytkownika                              |'
+     Write-Host '| 9. Zaimportuj Liste Uzytkownikow z plikuu CSV (NR) |'
+     Write-Host '| ################## Wyjscie ##################      |'
+     Write-Host '| 10. Powrot                                         |'
+     Write-Host '|====================================================|'
 
      $choice = Read-Host "Wybierz opcje "
      switch($choice){

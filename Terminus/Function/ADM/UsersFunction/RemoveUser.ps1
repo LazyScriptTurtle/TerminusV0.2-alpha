@@ -3,31 +3,31 @@
 function RemoveUser {
     try {
 
-# Zbieranie danych wejściowych od użytkownika
-$imie = Read-Host "Podaj imię"
+# Zbieranie danych wejściowych od uzytkownika
+$imie = Read-Host "Podaj imie"
 $nazwisko = Read-Host "Podaj nazwisko"
 $email = Read-Host "Podaj adres email"
 
-# Wyszukiwanie użytkownika w Active Directory
+# Wyszukiwanie uzytkownika w Active Directory
 $uzytkownik = Get-ADUser -Filter "GivenName -eq '$imie' -and Surname -eq '$nazwisko' -and EmailAddress -eq '$email'" -Properties EmailAddress
 
 if ($null -ne $uzytkownik) {
-    # Jeśli znaleziono użytkownika, wyświetl potwierdzenie
-    $odpowiedz = Read-Host "Czy na pewno chcesz usunąć użytkownika $($uzytkownik.Name) (t/n)?"
+    # Jeśli znaleziono uzytkownika, wyświetl potwierdzenie
+    $odpowiedz = Read-Host "Czy na pewno chcesz usunac uzytkownika $($uzytkownik.Name) (t/n)?"
     if ($odpowiedz -eq 't') {
-        # Usuwanie użytkownika
+        # Usuwanie uzytkownika
         Remove-ADUser -Identity $uzytkownik -Confirm:$false
-        Write-Host "Użytkownik został usunięty."
+        Read-Host "Uzytkownik zostal usuniety."
     } else {
-        Write-Host "Anulowano usuwanie użytkownika."
+        Read-Host "Anulowano usuwanie uzytkownika."
     }
 } else {
-    # Jeśli użytkownik nie został znaleziony
-    Read-Host "Nie znaleziono użytkownika spełniającego podane kryteria."
+    # Jeśli uzytkownik nie zostal znaleziony
+    Read-Host "Nie znaleziono uzytkownika spelniajacego podane kryteria."
 }
 
     }
     catch {
-        Write-Host "Błąd: $_"
+        Write-Host "Blad: $_"
     }
 }

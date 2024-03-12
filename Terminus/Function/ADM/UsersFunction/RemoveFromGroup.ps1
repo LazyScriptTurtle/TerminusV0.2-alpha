@@ -12,6 +12,7 @@ function RemoveFromGroup {
     if ($null -ne (Get-ADGroup -Identity $group))
     {
         Remove-ADGroupMember -Identity $group -Members $users
+        Read-Host "Uzytkownik pomyslnie usuniety z grupy $group"
     }
     else {
         Read-Host "Podana grupa nie istnieje "
