@@ -1,5 +1,5 @@
 ```
- #'/########################## Czym jest Terminus###########################\'
+ '/########################### Czym jest Terminus###########################\'
  '|                                                                         |'
  '|   Terminus to w pełni powershellowy projekt terminalu mającego          |'
  '|    na celu usprawnienie oraz zminimalizowania progu wejścia             |'
@@ -17,27 +17,27 @@
  '\_######################################################################_/'
 
       |######################### Jak korzystać #########################|
-      |#                                                     		       #|
-      |#         Korzystanie z Terminusa jest bardzo proste			       #|
-      |#  	   wystarczy uruchomic plik Main.ps1.              	       #|
+      |#                                                     	       #|
+      |#         Korzystanie z Terminusa jest bardzo proste	       #|
+      |#  	   wystarczy uruchomic plik Main.ps1.                  #|
       |#         Pojawi się Menu z wyborem modułów, należy wybrać      #|
       |#         moduł odpowiadający własnej potrzebie.                #|
-      |#                                                  		         #|
+      |#                                                  	       #|
       |#################################################################|
 
-																					### WSPÓŁPRACA ###
-																					Jeżeli chcesz pomóc w budowie tego projektu to śmiało. 
-																					Zrób fork repozytorium.
-																					Stwórz nową gałąź dla Twoich zmian.
-																					Złóż pull request.
-																					Przed rozpoczęciem pracy, proszę o maila wtedy będziemy mogli wymieniać się informacjami na Discord lub innym komunikatorze.
-																					Podzielę się także planami rozwoju.
+### WSPÓŁPRACA ###
+Jeżeli chcesz pomóc w budowie tego projektu to śmiało. 
+Zrób fork repozytorium.
+Stwórz nową gałąź dla Twoich zmian.
+Złóż pull request.
+Przed rozpoczęciem pracy, proszę o maila wtedy będziemy mogli wymieniać się informacjami na Discord lub innym komunikatorze.
+Podzielę się także planami rozwoju.
 																					
-																					### LICENCJA ###
-																					Projekt Terminus jest udostępniany na licencji MIT. Po szczegóły zapraszam do pliku License.
+### LICENCJA ###
+Projekt Terminus jest udostępniany na licencji MIT. Po szczegóły zapraszam do pliku License.
 
-																					### KONTAKT ###
-																					Masz pytania lub chcesz sięskontaktować zparaszam do kontaktu.
-																					Mail: MrLazyTurtle@protonmail.com
-																					Discord: https://discord.gg/DJPcVsft
+### KONTAKT ###
+Masz pytania lub chcesz sięskontaktować zparaszam do kontaktu.
+Mail: MrLazyTurtle@protonmail.com
+Discord: https://discord.gg/DJPcVsft
 ```
