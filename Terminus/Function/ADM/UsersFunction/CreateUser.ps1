@@ -35,7 +35,7 @@ function CreateUser {
         # Sprawdzenie czy wybrany index znajduje się w zakresie dostępnych OU
         if (-not $selectedOU) {
             Write-Host "Nieprawidlowy wybor OU. Proces zostaje przerwany."
-            sleep -Seconds 3
+            Start-Sleep -Seconds 3
             return
         }
 
