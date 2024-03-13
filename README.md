@@ -1,5 +1,5 @@
 ```
-																				   '/########################## Czym jest Terminus ##########################\'
+																				   '/########################## Czym jest Terminus##########################\'
 																				  '/                                                                          \'
 																				 '|   Terminus to w pełni powershellowy projekt terminalu mającego             |'
 																				 '|    na celu usprawnienie oraz zminimalizowania progu wejścia                |'
