@@ -1,3 +1,10 @@
+$scriptDirectoryPath = Split-Path -Path $MyInvocation.MyCommand.Definition -Parent
+. "$scriptDirectoryPath\DirectoryFunction\CreateOU.ps1"
+. "$scriptDirectoryPath\DirectoryFunction\DeleteOU.ps1"
+. "$scriptDirectoryPath\DirectoryFunction\ListOU.ps1"
+. "$scriptDirectoryPath\DirectoryFunction\LockOUDel.ps1"
+. "$scriptDirectoryPath\DirectoryFunction\MoveOU.ps1"
+. "$scriptDirectoryPath\DirectoryFunction\SearchOU.ps1"
 
 
 function AdmDirectory {
