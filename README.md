@@ -1,3 +1,4 @@
+...
    '/########################## Czym jest Terminus ##########################\'
   '/                                                                          \'
  '|   Terminus to w pełni powershellowy projekt terminalu mającego             |'
@@ -14,7 +15,8 @@
  '|   szablonów.                                                               |'
   '\                                                                          /'
    '\########################################################################/'
-
+...
+...
 |#################### Jak korzystać ####################|
 |#                                                     #|
 |#   Korzystanie z Terminusa jest bardzo proste        #|
@@ -23,6 +25,7 @@
 |#   moduł odpowiadający własnej potrzebie.            #|
 |#                                                     #|
 |#######################################################|
+...
 
 ### WSPÓŁPRACA ###
 Jeżeli chcesz pomóc w budowie tego projektu to śmiało. 
