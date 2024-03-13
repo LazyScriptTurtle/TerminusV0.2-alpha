@@ -15,14 +15,14 @@
   '\                                                                          /'
    '\########################################################################/'
 
-#################### Jak korzystać ####################
-#                                                     #
-#   Korzystanie z Terminusa jest bardzo proste        #
-#   wystarczy uruchomic plik Main.ps1.                #
-#   Pojawi się Menu z wyborem modułów, należy wybrać  #
-#   moduł odpowiadający własnej potrzebie.            #
-#                                                     #
-#######################################################
+|#################### Jak korzystać ####################|
+|#                                                     #|
+|#   Korzystanie z Terminusa jest bardzo proste        #|
+|#   wystarczy uruchomic plik Main.ps1.                #|
+|#   Pojawi się Menu z wyborem modułów, należy wybrać  #|
+|#   moduł odpowiadający własnej potrzebie.            #|
+|#                                                     #|
+|#######################################################|
 
 ### WSPÓŁPRACA ###
 Jeżeli chcesz pomóc w budowie tego projektu to śmiało. 
