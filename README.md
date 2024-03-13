@@ -1,19 +1,19 @@
-  /########################## Czym jest Terminus ##########################\
- /                                                                          \
-|   Terminus to w pełni powershellowy projekt terminalu mającego            |
-|    na celu usprawnienie oraz zminimalizowania progu wejścia               |
-|    do administrowania Windows Server Core.                                |
-|                                                                           |
-|    W skład tego programu wchodzi kilka modułów pozwalających              |
-|    szybciej, wydjaniej administrować jak równierz zabezpieczać            |
-|    Windows Server Core przy pomocy gotowych baselinów jak równierz        |
-|    własnych szablonów utwardzających.                                     |
-|                                                                           |
-|   Dodatkowo zaimplementowano w Terminusie moduł pozwalający               |
-|   na sprawne powoływanie systemów i konfigurowanie określonych            |
-|   szablonów.                                                              |
- \                                                                         /
-  \#######################################################################/
+   '/########################## Czym jest Terminus ##########################\'
+  '/                                                                          \'
+ '|   Terminus to w pełni powershellowy projekt terminalu mającego             |'
+ '|    na celu usprawnienie oraz zminimalizowania progu wejścia                |'
+ '|    do administrowania Windows Server Core.                                 |'
+ '|                                                                            |'
+ '|    W skład tego programu wchodzi kilka modułów pozwalających               |'
+ '|    szybciej, wydjaniej administrować jak równierz zabezpieczać             |'
+ '|    Windows Server Core przy pomocy gotowych baselinów jak równierz         |'
+ '|    własnych szablonów utwardzających.                                      |'
+ '|                                                                            |'
+ '|   Dodatkowo zaimplementowano w Terminusie moduł pozwalający                |'
+ '|   na sprawne powoływanie systemów i konfigurowanie określonych             |'
+ '|   szablonów.                                                               |'
+  '\                                                                          /'
+   '\########################################################################/'
 
 #################### Jak korzystać ####################
 #                                                     #
