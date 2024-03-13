@@ -10,9 +10,9 @@ $menuPath = Split-Path -Path $MyInvocation.MyCommand.Definition -Parent
 		  Clear-host
 		  Write-Host '/========== Menu ==========\'
 		  Write-Host '| 1. Modul Administracyjny |'
-		  Write-Host '| 2. Modul Hardeningowy    |'
-		  Write-Host '| 3. Modul Instalacyjny    |'
-		  Write-Host '| 4. Modul Audytowy        |'
+		  Write-Host '| 2. Modul Hardeningowy(NR)|'
+		  Write-Host '| 3. Modul Instalacyjny(NR)|'
+		  Write-Host '| 4. Modul Audytowy(NR)    |'
 		  Write-Host '| 5. Modul Antywirusowy(NR)|'
 		  Write-Host '|      ### Wyjscie ###     |'	
 		  Write-Host '| 6. Wyjscie               |'

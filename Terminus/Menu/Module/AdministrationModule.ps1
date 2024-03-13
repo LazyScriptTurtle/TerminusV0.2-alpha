@@ -15,7 +15,7 @@ function AdministrationModule {
      Write-Host '/======== Administration Module ========\'
      Write-Host '| 1. Uzytkownicy                        |'
      Write-Host '| 2. OUs\Foldery                        |'
-     Write-Host '| 3. Uprawnienia\ACL                    |'
+     Write-Host '| 3. Uprawnienia\ACL (NR)               |'
      Write-Host '| ############## Wyjscie ############## |'
      Write-Host '| 4. Powrot                             |'
      Write-Host '|=======================================|'
