@@ -1,4 +1,4 @@
-function CreateFunction {
+function CreateOU {
     param (
         [string]$searchBase = (Get-ADDomain).DistinguishedName
     )
